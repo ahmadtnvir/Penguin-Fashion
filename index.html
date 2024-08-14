@@ -15,27 +15,37 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <style>
       body {
         font-family: "Roboto", sans-serif;
       }
+
+      .fontFamily {
+        font-family: "Bebas Neue", sans-serif;
+      }
     </style>
   </head>
   <body>
-    <header class="bg-[#FFFBF0] pt-11 pb-16 border-2 border-red-600">
+    <header class="bg-[#FFFBF0] pt-11 pb-16">
       <section class="w-[95%] lg:w-[90%] my-0 mx-auto">
         <!-- Navbar Start -->
         <section
-          class="flex justify-between items-center border-2 border-lime-900"
+          class="flex justify-between items-center mb-14 md:mb-14 lg:mb-4"
         >
-          <div class="flex-1 border-2 border-black">
+          <div class="flex-1">
             <img
               class="w-[70%] md:[60%] lg:w-[50%]"
               src="icons/logo.png"
               alt=""
             />
           </div>
-          <div class="md:flex-1 lg:flex-1 border-2 border-cyan-600">
+          <div class="md:flex-1 lg:flex-1">
             <nav>
               <ul class="hidden md:flex lg:flex justify-around items-center">
                 <li>
@@ -75,11 +85,320 @@
         </section>
         <!-- Navbar End -->
         <!-- Hero Start -->
-        <section class=""></section>
+        <section
+          class="flex flex-col gap-11 md:gap-0 lg:gap-0 md:flex-row lg:flex-row justify-center items-center"
+        >
+          <div class="flex-1">
+            <h1
+              class="fontFamily text-[60px] md:text-[60px] lg:text-[80px] font-normal leading-tight"
+            >
+              <span class="text-[#FABE4C]">Be the Penguins</span>
+              <br />
+              <span class="text-[#363958]">of Winter</span>
+            </h1>
+            <p
+              class="text-4 font-normal leading-6 text-[#3E3E3E] mb-2 w-[80%] md:w-[90%] lg:w-[55%]"
+            >
+              Discover the unique style of penguins inspired by the winter
+              season. Experience the beauty and comfort of our luxurious and
+              stylish outfits.
+            </p>
+            <button
+              class="text-[#FFF] text-4 font-medium leading-6 py-5 px-8 bg-gradient-to-b from-[#A4BC46] to-[#85A019FF] rounded-xl"
+            >
+              <i class="fa-solid fa-cart-shopping mr-2"></i>
+              Shop Now
+            </button>
+          </div>
+          <div class="flex-1 flex justify-center items-center">
+            <img class="" src="images/model.png" alt="" />
+          </div>
+        </section>
         <!-- Navbar End -->
       </section>
     </header>
-    <main></main>
+    <main class="w-[95%] lg:w-[90%] mx-auto mt-12">
+      <section>
+        <h3 class="text-[#363958] fontFamily text-5xl font-normal mb-5">
+          Women Jacket
+        </h3>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-5 lg:gap-7"
+        >
+          <div
+            style="box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05)"
+            class="bg-[#FFFFFF] rounded-3xl p-4 flex flex-col"
+          >
+            <div
+              class="bg-[#F1F1F1] rounded-xl p-5 flex justify-center items-center mb-5"
+            >
+              <img class="" src="images/jacket-1.png" alt="" />
+            </div>
+            <div class="flex flex-col justify-between h-[100%]">
+              <div class="mb-7">
+                <h4 class="text-[#363958] text-2xl font-bold mb-3">
+                  Yellow Coat Jacket
+                </h4>
+                <p class="text-[#3E3E3E] text-4 font-normal leading-6 w-[90%]">
+                  A stylish and comfortable yellow coat jacket that caters to
+                  women's winter needs. This jacket features a unique design
+                  with a flapper at the front and a zippered waistline. The
+                  jacket is made from a durable material and features a zippered
+                  waistline for added security.
+                </p>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-[#FABE4C] text-4xl font-extrabold">$234</span>
+                <button
+                  class="text-[#FFF] text-4 font-medium leading-6 py-5 px-8 bg-gradient-to-b from-[#A4BC46] to-[#85A019FF] rounded-xl"
+                >
+                  <i class="fa-solid fa-cart-shopping mr-2"></i>
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            style="box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05)"
+            class="bg-[#FFFFFF] rounded-3xl p-4 flex flex-col justify-between"
+          >
+            <div
+              class="bg-[#F1F1F1] rounded-xl p-5 flex justify-center items-center mb-5"
+            >
+              <img class="" src="images/jacket-2.png" alt="" />
+            </div>
+            <div class="flex flex-col justify-between h-[100%]">
+              <div class="mb-7">
+                <h4 class="text-[#363958] text-2xl font-bold mb-3">
+                  Ladies Jacket
+                </h4>
+                <p class="text-[#3E3E3E] text-4 font-normal leading-6 w-[90%]">
+                  A luxurious and stylish ladies jacket made from a durable
+                  material. The jacket features a zippered waistline for added
+                  security and a flapper at the front. This jacket is perfect
+                  for casual wear or a formal event. Lorem ipsum dolor sit amet
+                  consectetur, adipisicing elit. Iste, expedita sint id quos
+                  omnis impedit rerum itaque repellat laboriosam nam, deserunt
+                  officia! Qui doloribus facere tempora pariatur nostrum unde
+                  veniam?
+                </p>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-[#FABE4C] text-4xl font-extrabold">$234</span>
+                <button
+                  class="text-[#FFF] text-4 font-medium leading-6 py-5 px-8 bg-gradient-to-b from-[#A4BC46] to-[#85A019FF] rounded-xl"
+                >
+                  <i class="fa-solid fa-cart-shopping mr-2"></i>
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            style="box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05)"
+            class="bg-[#FFFFFF] rounded-3xl p-4 flex flex-col justify-between"
+          >
+            <div
+              class="bg-[#F1F1F1] rounded-xl p-5 flex justify-center items-center mb-5"
+            >
+              <img class="" src="images/jacket-3.png" alt="" />
+            </div>
+            <div class="flex flex-col justify-between h-[100%]">
+              <div class="mb-7">
+                <h4 class="text-[#363958] text-2xl font-bold mb-3">
+                  Woman Leather Jacket
+                </h4>
+                <p
+                  class="text-[#3E3E3E] text-4 font-normal leading-6 mb-3 w-[90%]"
+                >
+                  A stylish and comfortable yellow coat jacket made from a
+                  durable leather material. The jacket features a zippered
+                  waistline and a flapper at the front. The jacket is made from
+                  a durable material and features a zippered waistline for added
+                  security.
+                </p>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-[#FABE4C] text-4xl font-extrabold">$234</span>
+                <button
+                  class="text-[#FFF] text-4 font-medium leading-6 py-5 px-8 bg-gradient-to-b from-[#A4BC46] to-[#85A019FF] rounded-xl"
+                >
+                  <i class="fa-solid fa-cart-shopping mr-2"></i>
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mt-24 mb-32">
+        <h3 class="text-[#363958] fontFamily text-5xl font-normal mb-5">
+          Women Jacket
+        </h3>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-5 lg:gap-7"
+        >
+          <div
+            style="box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05)"
+            class="bg-[#FFFFFF] rounded-3xl p-4 flex flex-col"
+          >
+            <div
+              class="bg-[#F1F1F1] rounded-xl p-5 flex justify-center items-center mb-5"
+            >
+              <img class="" src="images/jacket-1.png" alt="" />
+            </div>
+            <div class="flex flex-col justify-between h-[100%]">
+              <div class="mb-7">
+                <h4 class="text-[#363958] text-2xl font-bold mb-3">
+                  Yellow Coat Jacket
+                </h4>
+                <p class="text-[#3E3E3E] text-4 font-normal leading-6 w-[90%]">
+                  A stylish and comfortable yellow coat jacket that caters to
+                  women's winter needs. This jacket features a unique design
+                  with a flapper at the front and a zippered waistline. The
+                  jacket is made from a durable material and features a zippered
+                  waistline for added security.
+                </p>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-[#FABE4C] text-4xl font-extrabold">$234</span>
+                <button
+                  class="text-[#FFF] text-4 font-medium leading-6 py-5 px-8 bg-gradient-to-b from-[#A4BC46] to-[#85A019FF] rounded-xl"
+                >
+                  <i class="fa-solid fa-cart-shopping mr-2"></i>
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            style="box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05)"
+            class="bg-[#FFFFFF] rounded-3xl p-4 flex flex-col justify-between"
+          >
+            <div
+              class="bg-[#F1F1F1] rounded-xl p-5 flex justify-center items-center mb-5"
+            >
+              <img class="" src="images/jacket-2.png" alt="" />
+            </div>
+            <div class="flex flex-col justify-between h-[100%]">
+              <div class="mb-7">
+                <h4 class="text-[#363958] text-2xl font-bold mb-3">
+                  Ladies Jacket
+                </h4>
+                <p class="text-[#3E3E3E] text-4 font-normal leading-6 w-[90%]">
+                  A luxurious and stylish ladies jacket made from a durable
+                  material. The jacket features a zippered waistline for added
+                  security and a flapper at the front. This jacket is perfect
+                  for casual wear or a formal event. Lorem ipsum dolor sit amet
+                  consectetur, adipisicing elit. Iste, expedita sint id quos
+                  omnis impedit rerum itaque repellat laboriosam nam, deserunt
+                  officia! Qui doloribus facere tempora pariatur nostrum unde
+                  veniam?
+                </p>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-[#FABE4C] text-4xl font-extrabold">$234</span>
+                <button
+                  class="text-[#FFF] text-4 font-medium leading-6 py-5 px-8 bg-gradient-to-b from-[#A4BC46] to-[#85A019FF] rounded-xl"
+                >
+                  <i class="fa-solid fa-cart-shopping mr-2"></i>
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            style="box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05)"
+            class="bg-[#FFFFFF] rounded-3xl p-4 flex flex-col justify-between"
+          >
+            <div
+              class="bg-[#F1F1F1] rounded-xl p-5 flex justify-center items-center mb-5"
+            >
+              <img class="" src="images/jacket-3.png" alt="" />
+            </div>
+            <div class="flex flex-col justify-between h-[100%]">
+              <div class="mb-7">
+                <h4 class="text-[#363958] text-2xl font-bold mb-3">
+                  Woman Leather Jacket
+                </h4>
+                <p
+                  class="text-[#3E3E3E] text-4 font-normal leading-6 mb-3 w-[90%]"
+                >
+                  A stylish and comfortable yellow coat jacket made from a
+                  durable leather material. The jacket features a zippered
+                  waistline and a flapper at the front. The jacket is made from
+                  a durable material and features a zippered waistline for added
+                  security.
+                </p>
+              </div>
+              <div class="flex justify-between items-center">
+                <span class="text-[#FABE4C] text-4xl font-extrabold">$234</span>
+                <button
+                  class="text-[#FFF] text-4 font-medium leading-6 py-5 px-8 bg-gradient-to-b from-[#A4BC46] to-[#85A019FF] rounded-xl"
+                >
+                  <i class="fa-solid fa-cart-shopping mr-2"></i>
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="flex flex-col-reverse lg:flex-row justify-center items-center gap-24"
+      >
+        <div class="flex-1">
+          <div
+            style="box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05)"
+            class="bg-[#FFFFFF] rounded-xl flex flex-col lg:flex-row justify-around items-center gap-6 lg:gap-9 py-5 px-7"
+          >
+            <img class="w-[15%]" src="icons/house.png" alt="" />
+            <div class="text-center lg:text-start">
+              <h4 class="text-[#363958] text-2xl font-bold mb-3">
+                Find the Perfect Fit
+              </h4>
+              <p class="text-[#3E3E3E] font-normal leading-6 lg:w-[80%]">
+                Everybody is different, which is why we offer styles for every
+                body.
+              </p>
+            </div>
+          </div>
+          <div
+            style="box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05)"
+            class="bg-[#FFFFFF] rounded-xl flex flex-col lg:flex-row justify-around items-center gap-6 lg:gap-9 py-5 px-7 my-4"
+          >
+            <img class="w-[15%]" src="icons/house.png" alt="" />
+            <div class="text-center lg:text-start">
+              <h4 class="text-[#363958] text-2xl font-bold mb-3">
+                Find the Perfect Fit
+              </h4>
+              <p class="text-[#3E3E3E] font-normal leading-6 lg:w-[80%]">
+                Everybody is different, which is why we offer styles for every
+                body.
+              </p>
+            </div>
+          </div>
+          <div
+            style="box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05)"
+            class="bg-[#FFFFFF] rounded-xl flex flex-col lg:flex-row justify-around items-center gap-6 lg:gap-9 py-5 px-7"
+          >
+            <img class="w-[15%]" src="icons/house.png" alt="" />
+            <div class="text-center lg:text-start">
+              <h4 class="text-[#363958] text-2xl font-bold mb-3">
+                Find the Perfect Fit
+              </h4>
+              <p class="text-[#3E3E3E] font-normal leading-6 lg:w-[80%]">
+                Everybody is different, which is why we offer styles for every
+                body.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1">
+          <img src="images/shopping.png" alt="" />
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
